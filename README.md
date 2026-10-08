@@ -58,11 +58,41 @@ An end-to-end **Microsoft Fabric** data platform built around public Barcelona m
 
 [Explore repository](https://github.com/leninfonseca/barcelona-urban-mobility-data-platform) · [Architecture documentation](https://github.com/leninfonseca/barcelona-urban-mobility-data-platform/tree/main/architecture)
 
-### Learning & credentials
+### Microsoft credentials
 
-- **Microsoft Certified: Azure Data Fundamentals (DP-900)**
-- **In progress:** Advanced Vocational Training in Web & Multiplatform Software Development (DAM).
-- **Currently deepening:** PySpark, advanced SQL, Azure/Fabric data engineering and data platform design.
+<table>
+  <tr>
+    <td width="19%" align="center">
+      <strong>MICROSOFT<br/>CREDENTIALS</strong>
+    </td>
+    <td width="27%">
+      <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/">
+        <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" alt="Microsoft Certified Fundamentals badge" width="54" align="left" />
+      </a>
+      <strong>DP-900</strong> · <sub>AZURE</sub><br/>
+      <sub>Azure Data Fundamentals</sub><br/>
+      <sub><strong>✓ CERTIFIED</strong></sub>
+    </td>
+    <td width="27%">
+      <a href="https://learn.microsoft.com/en-us/credentials/certifications/fabric-data-engineer-associate/">
+        <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="Microsoft Certified Associate badge" width="54" align="left" />
+      </a>
+      <strong>DP-700</strong> · <sub>FABRIC</sub><br/>
+      <sub>Fabric Data Engineer Associate</sub><br/>
+      <sub><strong>IN PROGRESS</strong></sub>
+    </td>
+    <td width="27%">
+      <a href="https://learn.microsoft.com/en-us/credentials/certifications/fabric-analytics-engineer-associate/">
+        <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="Microsoft Certified Associate badge" width="54" align="left" />
+      </a>
+      <strong>DP-600</strong> · <sub>FABRIC</sub><br/>
+      <sub>Fabric Analytics Engineer Associate</sub><br/>
+      <sub><strong>IN PROGRESS</strong></sub>
+    </td>
+  </tr>
+</table>
+
+**Currently studying:** Advanced Vocational Training in Multiplatform Application Development (DAM), PySpark, advanced SQL and Azure/Fabric data platform design.
 
 ### Connect
 
