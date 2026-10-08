@@ -60,8 +60,20 @@ An end-to-end **Microsoft Fabric** data platform built around public Barcelona m
 
 ### Microsoft credentials
 
-[![Microsoft Certified: Azure Data Fundamentals (DP-900)](https://img.shields.io/badge/Microsoft%20Certified-DP--900%20Azure%20Data%20Fundamentals-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/)
-
+<table>
+  <tr>
+    <td align="center" width="100">
+      <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/">
+        <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" width="76" alt="Microsoft Certified Fundamentals badge" />
+      </a>
+    </td>
+    <td>
+      <strong>Microsoft Certified: Azure Data Fundamentals</strong><br/>
+      <strong>DP-900</strong> · Azure<br/>
+      <sub>Verified learning path: foundational data concepts and Azure data services</sub>
+    </td>
+  </tr>
+</table>
 
 **Currently studying:** Advanced Vocational Training in Multiplatform Application Development (DAM), PySpark, advanced SQL and Azure/Fabric data platform design.
 
