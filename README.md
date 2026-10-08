@@ -60,37 +60,8 @@ An end-to-end **Microsoft Fabric** data platform built around public Barcelona m
 
 ### Microsoft credentials
 
-<table>
-  <tr>
-    <td width="19%" align="center">
-      <strong>MICROSOFT<br/>CREDENTIALS</strong>
-    </td>
-    <td width="27%">
-      <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/">
-        <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" alt="Microsoft Certified Fundamentals badge" width="54" align="left" />
-      </a>
-      <strong>DP-900</strong> · <sub>AZURE</sub><br/>
-      <sub>Azure Data Fundamentals</sub><br/>
-      <sub><strong>✓ CERTIFIED</strong></sub>
-    </td>
-    <td width="27%">
-      <a href="https://learn.microsoft.com/en-us/credentials/certifications/fabric-data-engineer-associate/">
-        <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="Microsoft Certified Associate badge" width="54" align="left" />
-      </a>
-      <strong>DP-700</strong> · <sub>FABRIC</sub><br/>
-      <sub>Fabric Data Engineer Associate</sub><br/>
-      <sub><strong>IN PROGRESS</strong></sub>
-    </td>
-    <td width="27%">
-      <a href="https://learn.microsoft.com/en-us/credentials/certifications/fabric-analytics-engineer-associate/">
-        <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="Microsoft Certified Associate badge" width="54" align="left" />
-      </a>
-      <strong>DP-600</strong> · <sub>FABRIC</sub><br/>
-      <sub>Fabric Analytics Engineer Associate</sub><br/>
-      <sub><strong>IN PROGRESS</strong></sub>
-    </td>
-  </tr>
-</table>
+[![Microsoft Certified: Azure Data Fundamentals (DP-900)](https://img.shields.io/badge/Microsoft%20Certified-DP--900%20Azure%20Data%20Fundamentals-0078D4?style=flat-square&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/)
+
 
 **Currently studying:** Advanced Vocational Training in Multiplatform Application Development (DAM), PySpark, advanced SQL and Azure/Fabric data platform design.
 
