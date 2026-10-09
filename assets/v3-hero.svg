@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="465" viewBox="0 0 1400 465" role="img" aria-label="Lenin Fonseca, Data Engineering, Data Analytics and Business Intelligence. Abstract data pipeline from ingestion through processing to analytics.">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071120"/><stop offset=".6" stop-color="#0D192B"/><stop offset="1" stop-color="#10233A"/></linearGradient>
+ <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#47DEC7"/><stop offset=".55" stop-color="#5CBDF3"/><stop offset="1" stop-color="#A899FF"/></linearGradient>
+ <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#37526A" stroke-width=".55" opacity=".16"/></pattern>
+</defs>
+<rect width="1400" height="465" rx="20" fill="url(#bg)"/>
+<rect width="1400" height="465" rx="20" fill="url(#grid)"/>
+<path d="M78 68 H1322" stroke="#29455C" stroke-width="1"/>
+<circle cx="82" cy="48" r="4" fill="#5CE2D1"/>
+<text x="99" y="52" font-family="Arial,Helvetica,sans-serif" letter-spacing="2.8" font-size="12" fill="#AFC4D5">DATA ENGINEERING PORTFOLIO</text>
+<text x="78" y="184" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="84" letter-spacing="-3" fill="#F2F7FF">Lenin</text>
+<text x="78" y="277" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="84" letter-spacing="-3" fill="#F2F7FF">Fonseca</text>
+<path d="M82 305 H616" stroke="url(#flow)" stroke-width="3" stroke-linecap="round"/>
+<text x="82" y="353" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#D4E0ED">Data Engineering  /  Data Analytics  /  BI</text>
+<text x="82" y="415" font-family="Arial,Helvetica,sans-serif" letter-spacing="2.1" font-size="12" fill="#92A9BF">BARCELONA, SPAIN  ·  MICROSOFT FABRIC  ·  PYSPARK  ·  SQL</text>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="751" y="116" font-size="12" letter-spacing="2.2" fill="#88A8BE">DATA LIFECYCLE</text>
+<path d="M758 246 C805 246 829 246 873 246 S957 246 992 246 S1094 246 1124 246 S1214 246 1271 246" fill="none" stroke="#39556E" stroke-width="15" opacity=".22" stroke-linecap="round"/>
+<path d="M758 246 C805 246 829 246 873 246 S957 246 992 246 S1094 246 1124 246 S1214 246 1271 246" fill="none" stroke="url(#flow)" stroke-width="2.8" stroke-linecap="round"/>
+<path d="M758 222 C831 222 827 172 902 172 S983 222 1033 222 S1111 178 1169 178 S1233 222 1271 222" fill="none" stroke="#56AFDF" stroke-width="1.6" opacity=".55"/>
+<path d="M758 270 C831 270 827 319 902 319 S983 270 1033 270 S1111 318 1169 318 S1233 270 1271 270" fill="none" stroke="#69DDCB" stroke-width="1.6" opacity=".45"/>
+<circle cx="813" cy="246" r="36" fill="#10273A" stroke="#5FE1D1" stroke-width="2"/>
+<circle cx="1014" cy="246" r="36" fill="#122B42" stroke="#65BFF1" stroke-width="2"/>
+<circle cx="1215" cy="246" r="36" fill="#172B45" stroke="#B0A1FA" stroke-width="2"/>
+<g stroke-linecap="round" stroke-linejoin="round" fill="none">
+ <path d="M801 236 L813 229 L825 236 L813 243 Z M801 246 L813 253 L825 246 M801 255 L813 262 L825 255" stroke="#67E7D6" stroke-width="2.3"/>
+ <path d="M1003 234 L1012 234 L1012 242 L1024 242 L1024 252 L1014 252 L1014 260" stroke="#85CEFF" stroke-width="2.3"/>
+ <path d="M1201 260 V246 M1212 260 V237 M1223 260 V229" stroke="#C0B5FF" stroke-width="4"/>
+</g>
+<text x="813" y="329" text-anchor="middle" font-size="15" font-weight="700" fill="#EEF6FF">Ingest</text>
+<text x="1014" y="329" text-anchor="middle" font-size="15" font-weight="700" fill="#EEF6FF">Transform</text>
+<text x="1215" y="329" text-anchor="middle" font-size="15" font-weight="700" fill="#EEF6FF">Analyze</text>
+<text x="813" y="350" text-anchor="middle" font-size="11" fill="#91ADC4">API · JSON</text>
+<text x="1014" y="350" text-anchor="middle" font-size="11" fill="#91ADC4">PySpark · Delta</text>
+<text x="1215" y="350" text-anchor="middle" font-size="11" fill="#91ADC4">SQL · Power BI</text>
+<text x="1014" y="401" text-anchor="middle" font-size="12" letter-spacing="1" fill="#7F9FB8">TRACEABLE  /  INCREMENTAL  /  ANALYTICAL</text>
+</g>
+<rect x="0" y="461" width="1400" height="4" fill="url(#flow)"/>
+</svg>
