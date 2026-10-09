@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="Barcelona Urban Mobility architecture, API to Power BI">
+<defs>
+<linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#091222"/><stop offset="1" stop-color="#111D31"/></linearGradient>
+<linearGradient id="l" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#52E4D2"/><stop offset="1" stop-color="#69A7FF"/></linearGradient>
+<pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#29405A" stroke-width=".6" fill="none" opacity=".45"/></pattern>
+</defs>
+<rect width="1200" height="350" rx="18" fill="url(#b)"/><rect width="1200" height="350" rx="18" fill="url(#g)"/>
+<text x="38" y="46" font-size="12" letter-spacing="2.2" fill="#58E4D5" font-family="Arial,sans-serif">REFERENCE IMPLEMENTATION</text>
+<text x="38" y="76" font-size="22" font-weight="700" fill="#E8F2FF" font-family="Arial,sans-serif">Barcelona Urban Mobility / End-to-end flow</text>
+<text x="38" y="103" font-size="13" fill="#91A8C0" font-family="Arial,sans-serif">Bicing ingestion → incremental history → dimensional serving → interactive analytics</text>
+<path d="M223 184 H266 M437 184 H480 M651 184 H694 M865 184 H908" stroke="url(#l)" stroke-width="3" stroke-linecap="round"/>
+<g fill="#58E4D5"><path d="M266 184 l-10 -6 v12z"/><path d="M480 184 l-10 -6 v12z"/><path d="M694 184 l-10 -6 v12z"/><path d="M908 184 l-10 -6 v12z"/></g>
+<g font-family="Arial,sans-serif">
+<rect x="38" y="139" width="185" height="95" rx="11" fill="#13263B" stroke="#3D667F"/><rect x="38" y="139" width="185" height="4" rx="2" fill="#57E7D3"/><text x="57" y="166" font-size="12" fill="#65E5D4" letter-spacing="1">01 / SOURCE</text><text x="57" y="193" font-size="18" font-weight="700" fill="#F1F7FF">REST API</text><text x="57" y="215" font-size="12" fill="#A3B6C9">CityBikes · Bicing</text>
+<rect x="266" y="139" width="171" height="95" rx="11" fill="#13263B" stroke="#3D667F"/><rect x="266" y="139" width="171" height="4" rx="2" fill="#58C6F2"/><text x="285" y="166" font-size="12" fill="#70CFFF" letter-spacing="1">02 / BRONZE</text><text x="285" y="193" font-size="18" font-weight="700" fill="#F1F7FF">OneLake</text><text x="285" y="215" font-size="12" fill="#A3B6C9">Immutable JSON</text>
+<rect x="480" y="139" width="171" height="95" rx="11" fill="#13263B" stroke="#3D667F"/><rect x="480" y="139" width="171" height="4" rx="2" fill="#B7C9E8"/><text x="499" y="166" font-size="12" fill="#B7C9E8" letter-spacing="1">03 / SILVER</text><text x="499" y="193" font-size="18" font-weight="700" fill="#F1F7FF">PySpark</text><text x="499" y="215" font-size="12" fill="#A3B6C9">Delta · Watermark</text>
+<rect x="694" y="139" width="171" height="95" rx="11" fill="#13263B" stroke="#3D667F"/><rect x="694" y="139" width="171" height="4" rx="2" fill="#F6CC72"/><text x="713" y="166" font-size="12" fill="#F4CF7D" letter-spacing="1">04 / GOLD</text><text x="713" y="193" font-size="18" font-weight="700" fill="#F1F7FF">Star schema</text><text x="713" y="215" font-size="12" fill="#A3B6C9">Fact + dimensions</text>
+<rect x="908" y="139" width="254" height="95" rx="11" fill="#13263B" stroke="#3D667F"/><rect x="908" y="139" width="254" height="4" rx="2" fill="#9B8DFF"/><text x="927" y="166" font-size="12" fill="#B7A9FF" letter-spacing="1">05 / CONSUMPTION</text><text x="927" y="193" font-size="18" font-weight="700" fill="#F1F7FF">Power BI · Direct Lake</text><text x="927" y="215" font-size="12" fill="#A3B6C9">Semantic model + report</text>
+</g>
+<path d="M350 235 V276 H1030 V235" stroke="#55728F" stroke-width="1.5" stroke-dasharray="5 6" fill="none"/>
+<text x="600" y="271" text-anchor="middle" font-size="11" letter-spacing="1.3" fill="#A6B7C8" font-family="Arial,sans-serif">TRACEABLE  •  VALIDATED  •  ANALYTICS-READY</text>
+<rect x="38" y="309" width="1124" height="1" fill="#274059"/>
+<text x="38" y="332" font-size="11" fill="#829DB7" font-family="Arial,sans-serif">DISTRICT OPEN DATA: SEPARATE INGESTION BRANCH · NOT JOINED INTO GOLD</text>
+</svg>
