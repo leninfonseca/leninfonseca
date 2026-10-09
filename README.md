@@ -1,92 +1,148 @@
+<!--
+  Profile design V3. Versions README.md and README-v2.md are preserved.
+  SVG assets are vector illustrations written as code, not generated raster images.
+-->
 <div align="center">
 
-# Lenin Fonseca
+<img src="assets/v3-hero.svg" width="100%" alt="Lenin Fonseca — Data Engineering, Analytics and Business Intelligence. Data pipeline from ingestion to analytics." />
 
-**Aspiring Data Engineer | Data Analytics | Azure & Microsoft Fabric**
+<br/>
 
-Building reliable data pipelines, analytical data models and actionable BI solutions.
+<a href="https://leninfonseca.com"><img src="https://img.shields.io/badge/PORTFOLIO-Website-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website"/></a>
+<a href="https://github.com/leninfonseca/barcelona-urban-mobility-data-platform"><img src="https://img.shields.io/badge/FEATURED_PROJECT-Barcelona_Mobility-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Featured project"/></a>
+<a href="https://github.com/leninfonseca?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"/></a>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20website-0F172A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://leninfonseca.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leninfonseca?tab=repositories)
+<br/>
 
 </div>
 
----
+## 01 — Featured project
 
-### About me
+### Barcelona Urban Mobility Data Platform
 
-I'm a Barcelona-based developer transitioning into **Data Engineering**, with hands-on experience in technical laboratory operations, data traceability and process automation.
+A Microsoft Fabric data platform built using public Barcelona Bicing station availability data. It captures API snapshots, maintains incremental historical records, models data for analytical querying, and provides a Power BI reporting layer.
 
-I focus on building end-to-end data solutions: ingesting data from APIs, processing it with Python and PySpark, maintaining reliable historical datasets, and delivering insights through analytical SQL, DAX and Power BI dashboards.
+<div align="center">
 
-Currently studying **Software Development (DAM)** and expanding my knowledge of Azure data services, Microsoft Fabric, data modeling and distributed processing.
+<a href="https://github.com/leninfonseca/barcelona-urban-mobility-data-platform">
+<img src="https://raw.githubusercontent.com/leninfonseca/barcelona-urban-mobility-data-platform/main/assets/demos/project-barcelona.gif" width="92%" alt="Power BI report demo from the Barcelona Urban Mobility project"/>
+</a>
 
-### Tech stack
+<br/>
 
-**Data engineering & cloud**
+<a href="https://github.com/leninfonseca/barcelona-urban-mobility-data-platform"><img src="https://img.shields.io/badge/SOURCE_CODE-111827?style=flat-square&logo=github&logoColor=white" alt="Source code"/></a>
+<a href="https://github.com/leninfonseca/barcelona-urban-mobility-data-platform/tree/main/architecture"><img src="https://img.shields.io/badge/ARCHITECTURE-2563EB?style=flat-square" alt="Architecture documentation"/></a>
+<a href="https://github.com/leninfonseca/barcelona-urban-mobility-data-platform/tree/main/docs"><img src="https://img.shields.io/badge/DOCUMENTATION-111827?style=flat-square" alt="Technical documentation"/></a>
 
-![Skills](https://skillicons.dev/icons?i=azure,py,postgres,docker,git,github&theme=dark)
-
-![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-Data%20Platform-5C2D91?style=flat-square)
-![PySpark](https://img.shields.io/badge/PySpark-Data%20Processing-E25A1C?style=flat-square)
-![Delta Lake](https://img.shields.io/badge/Delta%20Lake-Lakehouse-00A6A6?style=flat-square)
-![SQL](https://img.shields.io/badge/SQL-Analytics-336791?style=flat-square)
-<a href="https://powerbi.microsoft.com/"><img src="https://cdn.simpleicons.org/powerbi/F2C811" alt="Power BI logo" width="42" height="42" /></a>  
-![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811?style=flat-square&logoColor=black)
-
-**Languages, databases & development tools**
-
-![Skills](https://skillicons.dev/icons?i=py,java,mysql,postgres,vscode,git,github,linux&theme=dark)
-
-**Core engineering concepts**
-
-`REST API ingestion` · `ETL / ELT` · `Medallion architecture` · `Incremental processing` · `Delta MERGE` · `Data quality` · `Dimensional modeling` · `Star schemas` · `Analytical SQL`
-
-**Data analytics & business intelligence**
-
-`Power BI` · `DAX measures` · `Power Query` · `Data visualization` · `KPI design` · `Dashboard development` · `Data exploration` · `SQL aggregations` · `Star schema reporting`
-
-My engineering projects also cover the analytics layer: translating curated data into semantic models, interactive reports and decision-ready metrics.
-
-### Featured project
-
-#### [Barcelona Urban Mobility Data Platform](https://github.com/leninfonseca/barcelona-urban-mobility-data-platform)
-
-An end-to-end **Microsoft Fabric** data platform built around public Barcelona mobility data and Bicing station availability.
-
-**Architecture:** REST APIs → Fabric Data Factory → OneLake Bronze → PySpark / Delta Silver → Gold star schema → SQL Analytics Endpoint → Power BI.
-
-**Engineering highlights**
-- Immutable timestamped JSON snapshots and incremental historical processing.
-- Watermark-based ingestion and idempotent Delta MERGE for safe reruns.
-- Explicit critical quality checks and non-critical source anomaly flags.
-- Analytical Gold layer with one fact table and three dimensions.
-- Power BI semantic model with weighted DAX measures and an interactive report.
-
-[Explore repository](https://github.com/leninfonseca/barcelona-urban-mobility-data-platform) · [Architecture documentation](https://github.com/leninfonseca/barcelona-urban-mobility-data-platform/tree/main/architecture)
-
-### Microsoft credentials
+</div>
 
 <table>
-  <tr>
-    <td align="center" width="100">
-      <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/">
-        <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" width="76" alt="Microsoft Certified Fundamentals badge" />
-      </a>
-    </td>
-    <td>
-      <strong>Microsoft Certified: Azure Data Fundamentals</strong><br/>
-      <strong>DP-900</strong> · Azure<br/>
-      <sub>Verified learning path: foundational data concepts and Azure data services</sub>
-    </td>
-  </tr>
+<tr>
+<td width="33%" valign="top">
+<strong>THE PROBLEM</strong>
+<p>Public mobility data changes continuously. A single API response isn't enough to study station availability over time.</p>
+</td>
+<td width="33%" valign="top">
+<strong>THE SOLUTION</strong>
+<p>Immutable Bronze snapshots, incremental historical processing in Silver, validation rules and a Gold dimensional model.</p>
+</td>
+<td width="34%" valign="top">
+<strong>THE OUTCOME</strong>
+<p>Query-ready Delta tables, a SQL Analytics Endpoint and an interactive Power BI report with analytical KPIs.</p>
+</td>
+</tr>
 </table>
 
-**Currently studying:** Advanced Vocational Training in Multiplatform Application Development (DAM), PySpark, advanced SQL and Azure/Fabric data platform design.
+## 02 — Data platform architecture
 
-### Connect
+<img src="assets/v2-platform.svg" width="100%" alt="Barcelona Urban Mobility architecture: REST API, Bronze, Silver, Gold, Power BI." />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-leninfonseca.com-0F172A?style=flat-square&logo=googlechrome&logoColor=white)](https://leninfonseca.com)
-[![GitHub](https://img.shields.io/badge/GitHub-leninfonseca-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/leninfonseca)
+The system ingests timestamped JSON snapshots into OneLake Bronze. PySpark processes previously unseen snapshots into Delta-based Silver history; the Gold layer exposes a dimensional model for SQL analysis and Power BI.
 
-*Interested in junior Data Engineering, Data Analyst and hybrid data roles in Barcelona and remote teams.*
+The Barcelona district dataset is managed as a separate ingestion branch and is not joined into the Gold model.
+
+## 03 — Technical stack
+
+<div align="center">
+
+**Languages and development**
+
+<br/>
+
+<a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python&theme=dark" width="49" alt="Python"/></a>&nbsp;
+<a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="49" alt="PostgreSQL"/></a>&nbsp;
+<a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="49" alt="MySQL"/></a>&nbsp;
+<a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="49" alt="Java"/></a>&nbsp;
+<a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="49" alt="Git"/></a>&nbsp;
+<a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker&theme=dark" width="49" alt="Docker"/></a>&nbsp;
+<a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="49" alt="Visual Studio Code"/></a>
+
+<br/><br/>
+
+**Data platforms and analytics**
+
+<br/>
+
+<a href="https://azure.microsoft.com/"><img src="https://skillicons.dev/icons?i=azure&theme=dark" width="28" height="28" alt="Microsoft Azure logo"/></a>&nbsp;
+<img src="https://img.shields.io/badge/Microsoft_Fabric-512DA8?style=for-the-badge&logoColor=white" alt="Microsoft Fabric"/>&nbsp;
+<img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" alt="PySpark"/>&nbsp;
+<img src="https://img.shields.io/badge/Delta_Lake-008D82?style=for-the-badge&logoColor=white" alt="Delta Lake"/>&nbsp;
+<a href="https://powerbi.microsoft.com/"><img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logoColor=black" alt="Power BI"/></a>
+
+</div>
+
+<br/>
+
+| Data engineering | Data analytics and BI |
+| :-- | :-- |
+| API and JSON ingestion | Analytical SQL |
+| Data Factory pipelines | Star schema design |
+| Bronze / Silver / Gold architecture | Fact and dimension tables |
+| Incremental processing and watermarks | Power BI semantic models |
+| Delta MERGE and idempotency | DAX measures and KPI calculations |
+| Data validation and error handling | Interactive reporting |
+
+
+
+## 04 — Engineering implementation
+
+<details>
+<summary><strong>Incremental processing and idempotency</strong></summary>
+
+The Silver notebook processes new Bronze snapshots identified through watermark logic. An insert-only Delta MERGE keyed by station and capture timestamp prevents duplicate historical observations during reruns.
+
+</details>
+
+<details>
+<summary><strong>Data validation</strong></summary>
+
+Critical validations stop invalid processing. Non-critical anomalies in source availability breakdowns are retained and flagged instead of silently corrected.
+
+</details>
+
+<details>
+<summary><strong>Dimensional modeling</strong></summary>
+
+The Gold layer includes an availability fact table and station, date, and time dimensions. This model supports SQL querying and Power BI calculations.
+
+</details>
+
+<details>
+<summary><strong>Recovery and operational considerations</strong></summary>
+
+The project documents timestamp parsing, changes in station counts, and capacity throttling. Safe manual reruns support recovery of pending snapshots; automated recovery is not claimed.
+
+</details>
+
+## 05 — Certification and contact
+
+**Microsoft Certified: Azure Data Fundamentals**  
+`DP-900` · Azure data concepts and services
+
+<img src="https://img.shields.io/badge/Microsoft_Certified-DP--900-2563EB?style=flat-square" alt="Microsoft Certified DP-900"/>
+
+<div align="center">
+
+<a href="https://leninfonseca.com"><img src="https://img.shields.io/badge/PORTFOLIO-leninfonseca.com-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+
+</div>
